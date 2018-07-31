@@ -6,7 +6,7 @@
 
         <variable
             name="clickProxy"
-            type="com.myatejx.animatetest.MainActivity.ClickProxy"/>
+            type="com.myatejx.animatetest.aty_trans.TestAtyTransActivity.ClickProxy"/>
 
     </data>
 
@@ -26,72 +26,64 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="4dp"
                 android:layout_marginTop="24dp"
-                android:text="视图动画"
+                android:text="常用转场方式"
                 android:textColor="@color/colorAccent"/>
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:onClick="@{()->clickProxy.toTween()}"
-                android:text="补间动画"/>
+                android:onClick="@{()->clickProxy.leftToRightIn()}"
+                android:text="从左往右进入"/>
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:onClick="@{()->clickProxy.toFrame()}"
-                android:text="逐帧动画"/>
+                android:onClick="@{()->clickProxy.bottomToTopIn()}"
+                android:text="从下往上进入"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="@{()->clickProxy.alphaIn()}"
+                android:text="渐变进入"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="4dp"
                 android:layout_marginTop="24dp"
-                android:text="属性动画"
+                android:text="非主流的尝试"
                 android:textColor="@color/colorAccent"/>
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:onClick="@{()->clickProxy.toProperty()}"
-                android:text="属性动画"/>
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="4dp"
-                android:layout_marginTop="24dp"
-                android:text="应用场景"
-                android:textColor="@color/colorAccent"/>
+                android:onClick="@{()->clickProxy.rightToLeftIn()}"
+                android:text="从右往左进入"/>
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:onClick="@{()->clickProxy.toActivity()}"
-                android:text="Activity转场动画"/>
+                android:onClick="@{()->clickProxy.topToBottomIn()}"
+                android:text="从上往下进入"/>
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:onClick="@{()->clickProxy.toFragment()}"
-                android:text="Fragment转场动画"/>
+                android:onClick="@{()->clickProxy.scaleIn()}"
+                android:text="伸缩进入"/>
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:onClick="@{()->clickProxy.toView()}"
-                android:text="View出场动画"/>
+                android:onClick="@{()->clickProxy.rotateIn()}"
+                android:text="旋转进入"/>
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:onClick="@{()->clickProxy.toChildView()}"
-                android:text="ChildView载入动画"/>
-
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:onClick="@{()->clickProxy.toViewGroupChange()}"
-                android:text="ViewGroup伸缩动画"/>
+                android:onClick="@{()->clickProxy.setIn()}"
+                android:text="组合效果进入"/>
 
         </LinearLayout>
 

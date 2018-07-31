@@ -20,10 +20,11 @@
         <activity android:name=".TestChildLoadActivity"/>
         <activity android:name=".TestViewShowActivity"/>
         <activity android:name=".TestFragTransActivity"/>
-        <activity android:name=".TestAtyTransActivity"/>
+        <activity android:name=".aty_trans.TestAtyTransActivity"/>
         <activity android:name=".TestPropertyActivity"/>
         <activity android:name=".TestFrameActivity"/>
         <activity android:name=".TestTweenActivity"/>
+        <activity android:name=".aty_trans.TestAtyTransSecondActivity"/>
     </application>
 
 </manifest>
