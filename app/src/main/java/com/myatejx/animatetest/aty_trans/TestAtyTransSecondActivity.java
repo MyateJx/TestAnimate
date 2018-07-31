@@ -12,20 +12,23 @@ import com.myatejx.animatetest.R;
  */
 public class TestAtyTransSecondActivity extends AppCompatActivity {
 
-    private int animEnter;
-    private int animLeave;
+    public static final String ANIM_ENTER_WHEN_BACK = "animEnterWhenBack";
+    public static final String ANIM_EXIT_WHEN_BACK = "animExitWhenBack";
+
+    private int animEnterWhenBack;
+    private int animExitWhenBack;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        animEnter = getIntent().getIntExtra("animEnter", R.anim.anim_left_to_right_in);
-        animLeave = getIntent().getIntExtra("animLeave", R.anim.anim_right_to_left_out);
+        animEnterWhenBack = getIntent().getIntExtra(ANIM_ENTER_WHEN_BACK, R.anim.anim_right_back_to_left_enter);
+        animExitWhenBack = getIntent().getIntExtra(ANIM_EXIT_WHEN_BACK, R.anim.anim_right_back_to_left_exit);
         setContentView(R.layout.activity_aty_trans_second);
     }
 
     @Override
     public void finish() {
         super.finish();
-        overridePendingTransition(animEnter, animLeave);
+        overridePendingTransition(animEnterWhenBack, animExitWhenBack);
     }
 }

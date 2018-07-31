@@ -32,8 +32,8 @@
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:onClick="@{()->clickProxy.leftToRightIn()}"
-                android:text="从左往右进入"/>
+                android:onClick="@{()->clickProxy.rightToLeftIn()}"
+                android:text="从右往左进入"/>
 
             <Button
                 android:layout_width="match_parent"
@@ -58,8 +58,8 @@
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:onClick="@{()->clickProxy.rightToLeftIn()}"
-                android:text="从右往左进入"/>
+                android:onClick="@{()->clickProxy.leftToRightIn()}"
+                android:text="从左往右进入"/>
 
             <Button
                 android:layout_width="match_parent"
