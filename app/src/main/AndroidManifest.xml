@@ -16,6 +16,14 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+        <activity android:name=".TestLayoutChangeActivity"/>
+        <activity android:name=".TestChildLoadActivity"/>
+        <activity android:name=".TestViewShowActivity"/>
+        <activity android:name=".TestFragTransActivity"/>
+        <activity android:name=".TestAtyTransActivity"/>
+        <activity android:name=".TestPropertyActivity"/>
+        <activity android:name=".TestFrameActivity"/>
+        <activity android:name=".TestTweenActivity"/>
     </application>
 
 </manifest>
