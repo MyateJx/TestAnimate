@@ -25,6 +25,7 @@ versions.fastjson = "1.1.68.android"
 versions.PhotoPicker = "0.9.5@aar"
 versions.Vlayout = "1.1.0@aar"
 versions.glide = "3.7.0"
+versions.cardview = "27.1.1"
 
 
 def deps = [:]
@@ -56,6 +57,7 @@ deps.Vlayout = "com.alibaba.android:vlayout:$versions.Vlayout" /*{
     transitive = true
 }*/
 deps.glide = "com.github.bumptech.glide:glide:$versions.glide"
+deps.cardview = "com.android.support:cardview-v7:$versions.cardview"
 
 
 def arouter = [:]
