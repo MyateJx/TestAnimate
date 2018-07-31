@@ -3,10 +3,12 @@
      android:duration="300"
     >
 
+    <rotate
+        android:fromDegrees="270"
+        android:toDegrees="360"/>
+
     <translate
         android:fromXDelta="0"
-        android:toXDelta="-100%p"
-        />
-
+        android:toXDelta="100%p"/>
 
 </set>

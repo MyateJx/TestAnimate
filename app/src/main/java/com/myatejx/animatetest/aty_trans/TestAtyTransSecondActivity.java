@@ -21,8 +21,8 @@ public class TestAtyTransSecondActivity extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        animEnterWhenBack = getIntent().getIntExtra(ANIM_ENTER_WHEN_BACK, R.anim.anim_right_back_to_left_enter);
-        animExitWhenBack = getIntent().getIntExtra(ANIM_EXIT_WHEN_BACK, R.anim.anim_right_back_to_left_exit);
+        animEnterWhenBack = getIntent().getIntExtra(ANIM_ENTER_WHEN_BACK, R.anim.anim_keep_on);
+        animExitWhenBack = getIntent().getIntExtra(ANIM_EXIT_WHEN_BACK, R.anim.anim_keep_on);
         setContentView(R.layout.activity_aty_trans_second);
     }
 
