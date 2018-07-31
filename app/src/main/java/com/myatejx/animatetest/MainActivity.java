@@ -6,13 +6,13 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 
 import com.myatejx.animatetest.aty_trans.TestAtyTransActivity;
-import com.myatejx.animatetest.aty_trans.TestChildLoadActivity;
-import com.myatejx.animatetest.aty_trans.TestFragTransActivity;
-import com.myatejx.animatetest.aty_trans.TestFrameActivity;
-import com.myatejx.animatetest.aty_trans.TestLayoutChangeActivity;
-import com.myatejx.animatetest.aty_trans.TestPropertyActivity;
-import com.myatejx.animatetest.aty_trans.TestTweenActivity;
-import com.myatejx.animatetest.aty_trans.TestViewShowActivity;
+import com.myatejx.animatetest.child_trans.TestChildLoadActivity;
+import com.myatejx.animatetest.frag_trans.TestFragTransActivity;
+import com.myatejx.animatetest.basic_trans.TestFrameActivity;
+import com.myatejx.animatetest.layout_trans.TestLayoutChangeActivity;
+import com.myatejx.animatetest.basic_trans.TestPropertyActivity;
+import com.myatejx.animatetest.basic_trans.TestTweenActivity;
+import com.myatejx.animatetest.view_trans.TestViewShowActivity;
 import com.myatejx.animatetest.databinding.ActivityMainBinding;
 
 public class MainActivity extends AppCompatActivity {

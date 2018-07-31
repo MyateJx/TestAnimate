@@ -1,4 +1,4 @@
-package com.myatejx.animatetest.aty_trans;
+package com.myatejx.animatetest.child_trans;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
