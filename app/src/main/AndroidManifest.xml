@@ -16,14 +16,14 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".TestLayoutChangeActivity"/>
-        <activity android:name=".TestChildLoadActivity"/>
-        <activity android:name=".TestViewShowActivity"/>
-        <activity android:name=".TestFragTransActivity"/>
+        <activity android:name=".aty_trans.TestLayoutChangeActivity"/>
+        <activity android:name=".aty_trans.TestChildLoadActivity"/>
+        <activity android:name=".aty_trans.TestViewShowActivity"/>
+        <activity android:name=".aty_trans.TestFragTransActivity"/>
         <activity android:name=".aty_trans.TestAtyTransActivity"/>
-        <activity android:name=".TestPropertyActivity"/>
-        <activity android:name=".TestFrameActivity"/>
-        <activity android:name=".TestTweenActivity"/>
+        <activity android:name=".aty_trans.TestPropertyActivity"/>
+        <activity android:name=".aty_trans.TestFrameActivity"/>
+        <activity android:name=".aty_trans.TestTweenActivity"/>
         <activity android:name=".aty_trans.TestAtyTransSecondActivity"/>
     </application>
 
