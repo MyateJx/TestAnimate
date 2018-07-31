@@ -8,15 +8,29 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.myatejx.animatetest.R;
+import com.myatejx.animatetest.databinding.FragmentTransTwoBinding;
+
 /**
  * @author xmj
  * @date 2018/7/31
  */
 public class TestTransTwoFragment extends Fragment {
 
+    private FragmentTransTwoBinding mBinding;
+
+    public static TestTransTwoFragment newInstance() {
+        TestTransTwoFragment fragment = new TestTransTwoFragment();
+        return fragment;
+    }
+
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        return super.onCreateView(inflater, container, savedInstanceState);
+        View view = inflater.inflate(R.layout.fragment_trans_two, container, false);
+        mBinding = FragmentTransTwoBinding.bind(view);
+        return view;
     }
+
+
 }

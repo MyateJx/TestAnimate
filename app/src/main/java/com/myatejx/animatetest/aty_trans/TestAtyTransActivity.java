@@ -67,7 +67,7 @@ public class TestAtyTransActivity extends AppCompatActivity {
 
         //伸缩进入
         public void scaleIn() {
-//            toSecondActivity(R.anim.anim_left_to_right_exit, R.anim.anim_left_to_right_enter);
+//            toSecondFragment(R.anim.anim_left_to_right_exit, R.anim.anim_left_to_right_enter);
         }
 
         //旋转进入
@@ -79,7 +79,7 @@ public class TestAtyTransActivity extends AppCompatActivity {
 
         //组合效果进入
         public void setIn() {
-//            toSecondActivity(R.anim.anim_left_to_right_exit, R.anim.anim_left_to_right_enter);
+//            toSecondFragment(R.anim.anim_left_to_right_exit, R.anim.anim_left_to_right_enter);
         }
     }
 }

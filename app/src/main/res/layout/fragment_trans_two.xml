@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--<data>
+
+        <variable
+            name="clickProxy"
+            type="com.myatejx.animatetest.frag_trans.TestFragTransActivity.ClickProxy"/>
+
+    </data>-->
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorAccent">
+
+        <FrameLayout
+            android:id="@+id/frag_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </android.support.constraint.ConstraintLayout>
+
+</layout>
+
